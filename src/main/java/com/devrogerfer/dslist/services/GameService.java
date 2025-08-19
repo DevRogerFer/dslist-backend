@@ -9,6 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.devrogerfer.dslist.dto.GameDTO;
 import com.devrogerfer.dslist.dto.GameMinDTO;
 import com.devrogerfer.dslist.entities.Game;
+import com.devrogerfer.dslist.projections.GameMinProjection;
 import com.devrogerfer.dslist.repositories.GameRepository;
 
 // registering the GameService as a system component
@@ -32,6 +33,14 @@ public class GameService {
 	@Transactional(readOnly = true)
 	public List<GameMinDTO> findAll() {
 		List<Game> result = gameRepository.findAll();
+		// transforms a Game list into GameMinDTO
+		return result.stream().map(x -> new GameMinDTO(x)).toList(); // operations with data sequence
+	}
+	
+	// function that returns a list of games
+	@Transactional(readOnly = true)
+	public List<GameMinDTO> findByList(Long listId) {
+		List<GameMinProjection> result = gameRepository.searchByList(listId);
 		// transforms a Game list into GameMinDTO
 		return result.stream().map(x -> new GameMinDTO(x)).toList(); // operations with data sequence
 	}
