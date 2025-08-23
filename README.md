@@ -3,7 +3,7 @@
 # Sobre o Projeto
 https://dslist-backend-production-ccfb.up.railway.app/games
 
-DSList é uma aplicação backend construída durante a semana do evento **Intensivão Java Spring**, organizado pela plataforma de ensino DevSuperior (https://devsuperior.com.br/).
+DSList é uma aplicação back end construída durante a semana do evento **Intensivão Java Spring**, organizado pela plataforma de ensino DevSuperior (https://devsuperior.com.br/).
 
 A aplicação consiste em organizar uma lista fictícia de games, trazendo algumas de suas principais características, tais como o título, ano de lançamento, uma imagem que o represente e uma curta descrição.
 Possibilita a reorganização da lista de acordo com a preferência do usuário.
@@ -33,7 +33,7 @@ Demonstração do Postman com requisição GET no endpoint "/games":
 
 ![Postman](https://github.com/DevRogerFer/dslist-backend/blob/main/assets/5.postman_endpoint_games.jpg)
 
-## Ambiente de Produção (PostgreSQL + Raiwaw App):
+## Ambiente de Produção (PostgreSQL + Railway App):
 Banco de dados PostgreSQL executando no ambiente de produção do Railway App:
 
 ![PostgreSQL](https://github.com/DevRogerFer/dslist-backend/blob/main/assets/6.postgresql_railwarapp.jpg)
