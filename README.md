@@ -42,6 +42,10 @@ Aplicação executando em ambiente de produção do Railway App no endpoint "/li
 
 ![RailwayApp](https://github.com/DevRogerFer/dslist-backend/blob/main/assets/7.railwayapp_endpoint_gamebylists.jpg)
 
+Implantação na nuvem (Railway) com esteira de CI/CD:
+
+![RailwayApp](https://github.com/DevRogerFer/dslist-backend/blob/main/assets/8.implantacao_nuvem_railway_ci_cd.jpg)
+
 ## Conteúdos abordados:
 - Conceitos:
   - Sistemas web e recursos
