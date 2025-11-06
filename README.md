@@ -1,7 +1,6 @@
 # Projeto DSList - Intensivão Java Spring
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/DevRogerFer/dslist-backend/blob/main/LICENSE)
 # Sobre o Projeto
-https://dslist-backend-production-ccfb.up.railway.app/games
 
 DSList é uma aplicação back end construída durante a semana do evento **Intensivão Java Spring**, organizado pela plataforma de ensino DevSuperior (https://devsuperior.com.br/).
 
